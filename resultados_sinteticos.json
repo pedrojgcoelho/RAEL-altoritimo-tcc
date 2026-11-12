@@ -1,0 +1,81 @@
+{
+  "config": {
+    "latitude": -21.76,
+    "longitude": -43.35,
+    "pressure_kpa": 92.0,
+    "temperature_k": 298.15,
+    "gcr": 0.35,
+    "limit_deg": 60.0,
+    "area_m2": 2.0,
+    "efficiency": 0.2,
+    "albedo": 0.2,
+    "horizon_s": 600,
+    "sample_s": 60,
+    "grid_deg": 1.0,
+    "speed_deg_s": 1.0,
+    "startup_wh": 0.02,
+    "travel_wh_deg": 0.002,
+    "wear_wh_deg": 0.0,
+    "margin_wh": 0.02,
+    "deadband_deg": 0.5,
+    "min_interval_s": 120,
+    "min_elevation_deg": 3.0,
+    "max_weather_age_s": 180.0
+  },
+  "results": [
+    {
+      "scenario": "claro",
+      "strategy": "soltrack_backtracking",
+      "gross_wh": 3364.293354235584,
+      "motor_wh": 7.179701166174223,
+      "net_wh": 3357.11365306941,
+      "movements": 335,
+      "travel_deg": 239.85058308710936
+    },
+    {
+      "scenario": "claro",
+      "strategy": "rael",
+      "gross_wh": 3340.4018929177864,
+      "motor_wh": 3.239999999999991,
+      "net_wh": 3337.1618929177866,
+      "movements": 138,
+      "travel_deg": 240.0
+    },
+    {
+      "scenario": "difuso",
+      "strategy": "soltrack_backtracking",
+      "gross_wh": 1336.1329109626324,
+      "motor_wh": 7.179701166174223,
+      "net_wh": 1328.9532097964582,
+      "movements": 335,
+      "travel_deg": 239.85058308710936
+    },
+    {
+      "scenario": "difuso",
+      "strategy": "rael",
+      "gross_wh": 1433.4902395897711,
+      "motor_wh": 0.0,
+      "net_wh": 1433.4902395897711,
+      "movements": 0,
+      "travel_deg": 0.0
+    },
+    {
+      "scenario": "variavel",
+      "strategy": "soltrack_backtracking",
+      "gross_wh": 2315.482107387872,
+      "motor_wh": 7.179701166174223,
+      "net_wh": 2308.3024062216978,
+      "movements": 335,
+      "travel_deg": 239.85058308710936
+    },
+    {
+      "scenario": "variavel",
+      "strategy": "rael",
+      "gross_wh": 2321.7178504890767,
+      "motor_wh": 5.564626113026468,
+      "net_wh": 2316.1532243760503,
+      "movements": 125,
+      "travel_deg": 1532.3130565132317
+    }
+  ]
+}

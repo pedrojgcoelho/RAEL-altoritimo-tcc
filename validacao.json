@@ -1,0 +1,10 @@
+{
+  "unit_tests": 14,
+  "independent_comparison": {
+    "samples": 358,
+    "solar_separation_mean_deg": 0.003123517414503781,
+    "solar_separation_max_deg": 0.00590942684429371,
+    "backtracking_max_difference_deg": 1.4210854715202004e-13,
+    "pvlib_version": "0.16.1"
+  }
+}

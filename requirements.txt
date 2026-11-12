@@ -1,0 +1,3 @@
+pytz
+# Dependencias de validacao comparativa, nao exigidas por modelo.py:
+pvlib
